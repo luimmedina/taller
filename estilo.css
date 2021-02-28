@@ -1,0 +1,19 @@
+*{ margin: 5px;padding: 0%;box-sizing: border-box;}
+
+body{background: #fcfcfc;}
+    
+header{position: absolute;top: 0;left: 350px;width: 59%;display: flex;align-items: center;justify-content: space-between;padding: 7px 250px;}
+
+nav ul{display: flex;list-style: none; flex-wrap: wrap;}
+   
+nav a{margin: 0 20px  ;text-decoration: none;color:black}
+    
+.sign{padding: 10px 20px;border-radius: 20px; background: rgb(245, 142, 161);margin-right: 10px;text-decoration: none;ease;color: white;}
+
+.sign:hover{  opacity: .10;}
+  
+footer{position: absolute; bottom: 0;  left: 0; right: 0;background: rgb(82, 80, 80);height: 255px;padding-top: 30px;width: 100vw;color: #fff;}
+    
+.footer-content{display: flex;align-items: center;flex-direction: column;text-align: center;}
+    
+.bottom-footer{text-align: center;width: 100vw;padding-top: 20px;}
